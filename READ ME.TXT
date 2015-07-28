@@ -1,0 +1,31 @@
+VIVEK ANAND SAMPATH
+Files attached:
+READ ME.TXT
+Project Report.pdf
+
+PYTHON CODE:
+sensor_data.py
+
+INPUT FILES
+sensor_data_input.txt
+sensor_locations.txt
+
+OUTPUT GRAPHS for various K:
+ml_k10.png
+ml_k15.png
+ml_k20.png
+ml_k25.png
+ml_k2.png
+ml_k5.png
+
+Running the program:
+The program uses python libraries numpy, matplotlib.
+Library numpy is compatible with python version 2.7, so python 2.7 has to be installed to run the program.
+
+Input arguments specification:
+$ python2.7 sensor_data.py <data_reading_file> <sensor_locations_file> <cluster_size>
+
+$ python2.7 sensor_data.py sensor_data_input.txt sensor_locations.txt 5
+
+
+
